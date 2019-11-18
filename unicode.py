@@ -48,8 +48,10 @@ def convert(text):
 str=input('nhap chuoi ' )
 
 print(convert(str))
+#chuyen ten file tieng viet sang telex khong dau
 scr=('/home/anguyen/Speech_recognition/words/wav/male1/')
 dst=('/home/anguyen/Speech_recognition/words/wav/male1/unmark/')
+# doc list file trong thu muc
 for filename in os.listdir(scr):
    # print(convert(filename))
     temp=scr+filename
